@@ -5,7 +5,7 @@ const App = () => {
     return (
         <div>
             <div>
-                <Button primary rounded outline>
+                <Button primary rounded outline className="mb-5">
                     <GoBell />
                     Click Here!
                 </Button>
