@@ -15,7 +15,7 @@ const App = () => {
     ];
 
     return (
-        <Dropdown onSelect={handleSelect} selection={selection} options={options} />
+        <Dropdown onChange={handleSelect} value={selection} options={options} />
     );
 };
 
